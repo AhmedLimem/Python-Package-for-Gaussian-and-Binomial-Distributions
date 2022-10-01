@@ -19,7 +19,7 @@ __distributions__ requires:
   * Matplotlib (>= 3.1.2)
 
 ## User installation
-it's better to test this package using Python virtual environments, for `windows 10`, use these commands in `PowerShell`:
+This package is best tested using Python virtual environments, for `windows 10` use these commands in `PowerShell`:
 ```
 python -m venv venv_distributions
 venv_distributions\Scripts\Activate.ps1
@@ -28,7 +28,7 @@ pip install .
 ```
 If you already have a working installation of python and Mathplotlip, the easiest way to install __distributions__ is using `pip`:
 ```
-pip install -U distributions
+pip install -U hmd-dbt-pbt
 ```
 
 ## Testing
@@ -45,4 +45,5 @@ git clone https://github.com/AhmedLimem/Python-Package-for-Gaussian-and-Binomial
 ```
 
 ## Important links
-Issue tracker: https://github.com/AhmedLimem/Python-Package-for-Gaussian-and-Binomial-Distributions/issues
+  * Issue tracker: https://github.com/AhmedLimem/Python-Package-for-Gaussian-and-Binomial-Distributions/issues
+  * Download releases: https://pypi.org/project/hmd-dbt-pbt/
